@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-color: black;
+
+}
+
+.fizzbuzz{
+  color: white;
+  text-shadow: 5px 5px 10px magenta;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.first-container{
+  background-color: black;
+  height: 500px;
+
+}
+
+.btn{
+  width: 500px;
+  height: 300px;
+  color: white;
+  text-shadow: 4px 4px 8px darkviolet;
+  font-size: 50px;
+  background-color: inherit;
+  border: 10px solid white;
+  font-weight: 800;
+  margin: 40px 0;
+}
+
+.answer, .answer2, .answer3, .answer4, .answer5{
+  color: white;
+  text-shadow: 3px 3px 6px red;
+
+
+}
+
+
+/* FLEXBOX */
+.first-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
